@@ -1,0 +1,6 @@
+require 'imgdups'
+
+#ruby -Ilib .\bin\imgdups 'E:/OneDrive/Picture/101MSDCF' 'E:/OneDrive/Google Photo' 'E:/OneDrive/Picasa/log_data.txt'
+
+puts ARGV[0], ARGV[1]
+puts ImageDups.run(ARGV[0], ARGV[1], ARGV[2])
